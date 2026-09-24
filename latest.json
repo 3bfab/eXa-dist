@@ -1,23 +1,19 @@
 {
-  "version": "0.9.1",
+  "version": "0.9.2",
   "channel": "pre-release",
   "released_at": "2026-09-24",
-  "file": "EXA-v0.9.1",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.1/EXA-v0.9.1",
-  "sha256": "b506500321e37b580932aac5dd82263e51d8f2f6b919e105592edb17dbe8796c",
-  "size": 154147672,
+  "file": "EXA-v0.9.2",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.2/EXA-v0.9.2",
+  "sha256": "e92c3faff2b01f93236d57da59f9d63122d9fb50df13e67a32f2145310d50785",
+  "size": 162090448,
   "notes": {
     "tr": [
-      "Makine yazılımı artık kendi kendini güncelliyor: yeni sürüm çıktığında ekranda haber veriyor ve tek dokunuşla kuruyor.",
-      "Güncellemeden önce çalışan sürümün yedeği alınıyor, indirilen dosya doğrulanmadan kurulmuyor.",
-      "USB belleği takılı değilken 'USB'den Ekle' düğmeleri kapalı görünüyor; basınca hiçbir şey olmaması hissi kalktı.",
-      "Oturum geçerliyken gelen yetki hatası artık tekrar tekrar girişe zorlamıyor; açılış belirgin biçimde hızlandı."
+      "Güncelleme bittiğinde makine yeniden başlatılmıyor: uygulama kendi servisiyle saniyeler içinde yeni sürüm olarak açılıyor.",
+      "Yeni sürüm, makinenin gerçekten çalıştırdığı dosyanın üzerine kuruluyor; eskisi her zaman yedekleniyor."
     ],
     "en": [
-      "The machine software updates itself: it says when a new version is out and installs it with one tap.",
-      "The running build is backed up first, and a downloaded file is verified before it is installed.",
-      "The “Add from USB” controls are disabled while no stick is plugged in.",
-      "A permission error on a valid session no longer forces repeated sign-ins; start-up is noticeably faster."
+      "Finishing an update no longer restarts the machine: the application comes back on the new version in seconds.",
+      "The new version replaces the file the machine actually runs, and the old one is always kept as a backup."
     ]
   }
 }
