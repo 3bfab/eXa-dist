@@ -1,29 +1,23 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
   "channel": "pre-release",
   "released_at": "2026-09-24",
-  "file": "EXA-v0.9.0",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.0/EXA-v0.9.0",
-  "sha256": "d4f03bbf127a786ac18356fafb20efba79d45153171772b70f0443e471854034",
-  "size": 154145304,
+  "file": "EXA-v0.9.1",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.1/EXA-v0.9.1",
+  "sha256": "b506500321e37b580932aac5dd82263e51d8f2f6b919e105592edb17dbe8796c",
+  "size": 154147672,
   "notes": {
     "tr": [
-      "Isıtma 45 dakikada bitmezse baskı iptal olmuyor, reçine olduğu haliyle baskı başlıyor.",
-      "İlk katman doğrulaması artık projektör çözünürlüğüne bakıyor; sağlam plakalar boşuna reddedilmiyor.",
-      "Otomatik taban (Auto Base) oluşturulurken ekranda durumu görünüyor ve baskı AB-005 ile durmuyor.",
-      "Model görselleri ve katman önizlemeleri çok daha hızlı açılıyor.",
-      "USB bellek takıldığında modeller anında listeleniyor, bellek çıkarılınca liste boşalıyor.",
-      "Kalibrasyon ekranına Z-Offset ayarı eklendi (50 µm adımlarla).",
-      "Bilgi ekranında toplam baskı, baskı süresi ve projektör saatleri gösteriliyor."
+      "Makine yazılımı artık kendi kendini güncelliyor: yeni sürüm çıktığında ekranda haber veriyor ve tek dokunuşla kuruyor.",
+      "Güncellemeden önce çalışan sürümün yedeği alınıyor, indirilen dosya doğrulanmadan kurulmuyor.",
+      "USB belleği takılı değilken 'USB'den Ekle' düğmeleri kapalı görünüyor; basınca hiçbir şey olmaması hissi kalktı.",
+      "Oturum geçerliyken gelen yetki hatası artık tekrar tekrar girişe zorlamıyor; açılış belirgin biçimde hızlandı."
     ],
     "en": [
-      "A heating that does not finish in 45 minutes no longer cancels the print; it starts with the resin as it is.",
-      "First-layer verification looks at the projector's resolution again, so good plates are no longer refused.",
-      "Auto Base shows its progress on screen and no longer stops the print with AB-005.",
-      "Model pictures and layer previews open much faster.",
-      "A USB stick is listed as soon as it is plugged in, and the list empties when it is pulled.",
-      "The calibration screen has a Z-Offset control, in 50 µm steps.",
-      "The info screen shows total prints, print hours and projector hours."
+      "The machine software updates itself: it says when a new version is out and installs it with one tap.",
+      "The running build is backed up first, and a downloaded file is verified before it is installed.",
+      "The “Add from USB” controls are disabled while no stick is plugged in.",
+      "A permission error on a valid session no longer forces repeated sign-ins; start-up is noticeably faster."
     ]
   }
 }
