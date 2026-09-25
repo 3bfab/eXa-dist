@@ -1,21 +1,17 @@
 {
-  "version": "0.9.4",
+  "version": "0.9.5",
   "channel": "pre-release",
   "released_at": "2026-09-25",
-  "file": "EXA-v0.9.4",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.4/EXA-v0.9.4",
-  "sha256": "87dfe175c26d35c58dd944ab1c3b238c924e177c863d50783b7d81aa87575446",
-  "size": 162092616,
+  "file": "EXA-v0.9.5",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.5/EXA-v0.9.5",
+  "sha256": "da183006b99fde9a2eb862bcad359c518cad6787936016e4a350a87fa9540830",
+  "size": 162092584,
   "notes": {
     "tr": [
-      "Güncelleme kurulduktan sonra \"Yeniden Başlat\" artık şifre sormuyor; uygulama kendi servisiyle yeni sürüm olarak açılıyor.",
-      "Bakım ekranında \"Odak Aç\" veya \"LED Maskesi\" penceresi açıkken soldaki menü tıklanmıyor; pencere kapanmadan ekran değişmiyor.",
-      "Baskı ekranında profil, katman kalınlığı ve pozlama bilgileri en alta, \"İptal\" düğmesiyle aynı hizaya alındı."
+      "Güncelleme, makinenin gerçekten başlattığı dosyanın (MegaPlatform klasörünün içindeki MegaPlatform) üzerine kuruluyor; eskisi aynı klasörde MegaPlatform.bck olarak kalıyor."
     ],
     "en": [
-      "After an update, \"Restart\" no longer asks for a password; the application comes back on the new version through its own service.",
-      "On Maintenance, the sidebar is dead while the focus or LED-mask window is open; the screen cannot be left until it is closed.",
-      "On the print screen the profile, layer thickness and exposure tiles are along the bottom, level with \"Cancel\"."
+      "The update installs over the file the machine actually starts (MegaPlatform inside the MegaPlatform folder), and the old one stays beside it as MegaPlatform.bck."
     ]
   }
 }
