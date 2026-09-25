@@ -1,19 +1,19 @@
 {
-  "version": "0.9.2",
+  "version": "0.9.3",
   "channel": "pre-release",
-  "released_at": "2026-09-24",
-  "file": "EXA-v0.9.2",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.2/EXA-v0.9.2",
-  "sha256": "e92c3faff2b01f93236d57da59f9d63122d9fb50df13e67a32f2145310d50785",
-  "size": 162090448,
+  "released_at": "2026-09-25",
+  "file": "EXA-v0.9.3",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.3/EXA-v0.9.3",
+  "sha256": "c66a64d9f6d19994b3471ad1f64b3715449642a319d1a0aff5f4f0cd8fe175d2",
+  "size": 162088552,
   "notes": {
     "tr": [
-      "Güncelleme bittiğinde makine yeniden başlatılmıyor: uygulama kendi servisiyle saniyeler içinde yeni sürüm olarak açılıyor.",
-      "Yeni sürüm, makinenin gerçekten çalıştırdığı dosyanın üzerine kuruluyor; eskisi her zaman yedekleniyor."
+      "Bilgi ekranında \"Güncel\" rozeti sürüm başlıklarının üzerine binmiyor, alt satırda duruyor.",
+      "Yazıcıyı kapatma penceresi yalnızca soruyu soruyor, fazladan uyarı metni kaldırıldı."
     ],
     "en": [
-      "Finishing an update no longer restarts the machine: the application comes back on the new version in seconds.",
-      "The new version replaces the file the machine actually runs, and the old one is always kept as a backup."
+      "On the Info screen the \"Up to date\" badge no longer sits over the version labels; it is on its own line.",
+      "The power-off dialog asks the question and nothing more; the extra warning text is gone."
     ]
   }
 }
