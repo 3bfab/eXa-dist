@@ -1,17 +1,23 @@
 {
-  "version": "0.9.8",
+  "version": "0.9.9",
   "channel": "pre-release",
   "released_at": "2026-09-25",
-  "file": "EXA-v0.9.8",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.8/EXA-v0.9.8",
-  "sha256": "23b03b03ae875cd6929988c7e6a6d80b786a6eff0a82296e91468fde392f7fda",
-  "size": 162356088,
+  "file": "EXA-v0.9.9",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.9/EXA-v0.9.9",
+  "sha256": "6e1eaa4b91bb5877b44cc18fb5a03b9b5cff356f15112dd274976f1a12771ec4",
+  "size": 162364720,
   "notes": {
     "tr": [
-      "Geliştirme bilgisayarında KVKK/GDPR ekranı her açılışta tekrar sorulmuyor; verilen yanıt hatırlanıyor."
+      "Masaüstü uygulamasından gönderilen model makinede kendiliğinden dilimleniyor.",
+      "Model gelirken ve dilimlenirken ekranda işin adı ve ilerlemesi görünüyor; hangi ekranda olursanız olun çıkıyor.",
+      "Gönderilen model kendi adıyla kütüphaneye kaydediliyor; dilimleme bitince ana ekranda seçili gelir.",
+      "Masaüstündeki \"Gönder ve Başlat\" ile baskı doğrudan başlıyor; başlatma reddedilirse sebebi ekranda kalır."
     ],
     "en": [
-      "On a development computer the privacy screen is asked once and the answer is remembered, instead of coming up at every start."
+      "A model sent from the desktop application is sliced on the machine by itself.",
+      "While the model arrives and while it is sliced the screen shows the job's name and its progress, whatever screen you are on.",
+      "A sent model is saved in the library under its own name, and is the selected one on the home screen once slicing ends.",
+      "\"Send and start\" on the desktop starts the print directly; if the printer refuses, the reason stays on screen."
     ]
   }
 }
