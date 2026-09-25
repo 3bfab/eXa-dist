@@ -1,19 +1,17 @@
 {
-  "version": "0.9.6",
+  "version": "0.9.7",
   "channel": "pre-release",
   "released_at": "2026-09-25",
-  "file": "EXA-v0.9.6",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.6/EXA-v0.9.6",
-  "sha256": "71cf30ea3b4b72d2d5bbe383be5a91cfab50500d295b05888e731e54663663e3",
-  "size": 162093680,
+  "file": "EXA-v0.9.7",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.7/EXA-v0.9.7",
+  "sha256": "397c2b8d1f98b1c9925c6cee4e67c4845e10debb9d8575481d745ca67f4814dc",
+  "size": 162356312,
   "notes": {
     "tr": [
-      "Baskı başlarken tabla hareket ederken ekran \"Tabla sıfırlanıyor\" diyor; \"Reçine ısıtılıyor\" yazısı tabla aşağı indikten sonra çıkıyor.",
-      "Baskı ekranında görüntü ile alttaki bilgi kutuları arasındaki boşluk kaldırıldı; kutular biraz büyüdü, görüntü alanı aşağı indi."
+      "Uzaktan kontrol artık uygulamayla birlikte açılıyor: makine ağda kendini duyuruyor ve telefon ile masaüstü uygulaması bağlanabiliyor."
     ],
     "en": [
-      "At the start of a print the screen says the platform is being zeroed while it travels; \"heating the resin\" comes up once the platform is down.",
-      "On the print screen the gap between the picture and the tiles below it is gone: the tiles are taller and the picture reaches down to them."
+      "Remote control comes up with the application: the machine announces itself on the network and the phone and desktop apps can reach it."
     ]
   }
 }
