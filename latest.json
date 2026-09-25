@@ -1,17 +1,19 @@
 {
-  "version": "0.9.5",
+  "version": "0.9.6",
   "channel": "pre-release",
   "released_at": "2026-09-25",
-  "file": "EXA-v0.9.5",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.5/EXA-v0.9.5",
-  "sha256": "da183006b99fde9a2eb862bcad359c518cad6787936016e4a350a87fa9540830",
-  "size": 162092584,
+  "file": "EXA-v0.9.6",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.6/EXA-v0.9.6",
+  "sha256": "71cf30ea3b4b72d2d5bbe383be5a91cfab50500d295b05888e731e54663663e3",
+  "size": 162093680,
   "notes": {
     "tr": [
-      "Güncelleme, makinenin gerçekten başlattığı dosyanın (MegaPlatform klasörünün içindeki MegaPlatform) üzerine kuruluyor; eskisi aynı klasörde MegaPlatform.bck olarak kalıyor."
+      "Baskı başlarken tabla hareket ederken ekran \"Tabla sıfırlanıyor\" diyor; \"Reçine ısıtılıyor\" yazısı tabla aşağı indikten sonra çıkıyor.",
+      "Baskı ekranında görüntü ile alttaki bilgi kutuları arasındaki boşluk kaldırıldı; kutular biraz büyüdü, görüntü alanı aşağı indi."
     ],
     "en": [
-      "The update installs over the file the machine actually starts (MegaPlatform inside the MegaPlatform folder), and the old one stays beside it as MegaPlatform.bck."
+      "At the start of a print the screen says the platform is being zeroed while it travels; \"heating the resin\" comes up once the platform is down.",
+      "On the print screen the gap between the picture and the tiles below it is gone: the tiles are taller and the picture reaches down to them."
     ]
   }
 }
