@@ -1,23 +1,21 @@
 {
-  "version": "0.9.9",
+  "version": "0.9.10",
   "channel": "pre-release",
   "released_at": "2026-09-25",
-  "file": "EXA-v0.9.9",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.9/EXA-v0.9.9",
-  "sha256": "6e1eaa4b91bb5877b44cc18fb5a03b9b5cff356f15112dd274976f1a12771ec4",
-  "size": 162364720,
+  "file": "EXA-v0.9.10",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.10/EXA-v0.9.10",
+  "sha256": "79d86801f79548c044b2bf695b6f6b3e2d3a48b5d4751e7630869147627cfdc7",
+  "size": 162379696,
   "notes": {
     "tr": [
-      "Masaüstü uygulamasından gönderilen model makinede kendiliğinden dilimleniyor.",
-      "Model gelirken ve dilimlenirken ekranda işin adı ve ilerlemesi görünüyor; hangi ekranda olursanız olun çıkıyor.",
-      "Gönderilen model kendi adıyla kütüphaneye kaydediliyor; dilimleme bitince ana ekranda seçili gelir.",
-      "Masaüstündeki \"Gönder ve Başlat\" ile baskı doğrudan başlıyor; başlatma reddedilirse sebebi ekranda kalır."
+      "Masaüstünde dilimlenmiş iş de kabul ediliyor: katman görüntüleri geldiği gibi kütüphaneye kaydediliyor, makine yeniden dilimlemiyor.",
+      "Gelen iş ekranda adı ve yüzdesiyle görünüyor; kaydedilince ana ekranda seçili gelir ve \"Gönder ve Başlat\" ile doğrudan basılır.",
+      "Eksik katmanlı ya da bozuk bir iş reddediliyor; yarım kalan kayıt ve klasör geride bırakılmıyor."
     ],
     "en": [
-      "A model sent from the desktop application is sliced on the machine by itself.",
-      "While the model arrives and while it is sliced the screen shows the job's name and its progress, whatever screen you are on.",
-      "A sent model is saved in the library under its own name, and is the selected one on the home screen once slicing ends.",
-      "\"Send and start\" on the desktop starts the print directly; if the printer refuses, the reason stays on screen."
+      "A job sliced on the desktop is now accepted as it is: the layer images are stored in the library and the machine does not slice again.",
+      "The incoming job shows its name and progress on screen; once stored it is the selected model on the home screen and prints straight from \"Send and start\".",
+      "A job with missing layers or a broken archive is refused, and no half-written record or folder is left behind."
     ]
   }
 }
