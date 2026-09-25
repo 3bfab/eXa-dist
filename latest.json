@@ -1,17 +1,17 @@
 {
-  "version": "0.9.7",
+  "version": "0.9.8",
   "channel": "pre-release",
   "released_at": "2026-09-25",
-  "file": "EXA-v0.9.7",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.7/EXA-v0.9.7",
-  "sha256": "397c2b8d1f98b1c9925c6cee4e67c4845e10debb9d8575481d745ca67f4814dc",
-  "size": 162356312,
+  "file": "EXA-v0.9.8",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.8/EXA-v0.9.8",
+  "sha256": "23b03b03ae875cd6929988c7e6a6d80b786a6eff0a82296e91468fde392f7fda",
+  "size": 162356088,
   "notes": {
     "tr": [
-      "Uzaktan kontrol artık uygulamayla birlikte açılıyor: makine ağda kendini duyuruyor ve telefon ile masaüstü uygulaması bağlanabiliyor."
+      "Geliştirme bilgisayarında KVKK/GDPR ekranı her açılışta tekrar sorulmuyor; verilen yanıt hatırlanıyor."
     ],
     "en": [
-      "Remote control comes up with the application: the machine announces itself on the network and the phone and desktop apps can reach it."
+      "On a development computer the privacy screen is asked once and the answer is remembered, instead of coming up at every start."
     ]
   }
 }
