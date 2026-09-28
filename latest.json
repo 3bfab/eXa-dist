@@ -1,21 +1,25 @@
 {
-  "version": "0.9.10",
+  "version": "0.9.11",
   "channel": "pre-release",
-  "released_at": "2026-09-25",
-  "file": "EXA-v0.9.10",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.10/EXA-v0.9.10",
-  "sha256": "79d86801f79548c044b2bf695b6f6b3e2d3a48b5d4751e7630869147627cfdc7",
-  "size": 162379696,
+  "released_at": "2026-09-28",
+  "file": "EXA-v0.9.11",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.11/EXA-v0.9.11",
+  "sha256": "a294cd378036c79095d1dfdce07e19c758a6fbf81f5a84516c9b8c52e7297cf6",
+  "size": 162387400,
   "notes": {
     "tr": [
-      "Masaüstünde dilimlenmiş iş de kabul ediliyor: katman görüntüleri geldiği gibi kütüphaneye kaydediliyor, makine yeniden dilimlemiyor.",
-      "Gelen iş ekranda adı ve yüzdesiyle görünüyor; kaydedilince ana ekranda seçili gelir ve \"Gönder ve Başlat\" ile doğrudan basılır.",
-      "Eksik katmanlı ya da bozuk bir iş reddediliyor; yarım kalan kayıt ve klasör geride bırakılmıyor."
+      "Fabrika ayarlarına dönüş çalışıyor: veritabanı ve modeller siliniyor, kart standby'a alınıp sıfırlanıyor ve uygulama boş bir kurulumla yeniden açılıyor. Devam eden baskı varsa işlem yapılmıyor.",
+      "\"Güncelleme Ara\" sonucu söylüyor: yeni sürüm yoksa köşede \"Güncel\" yazısı çıkıyor.",
+      "USB ekranında dilimlenmiş dosyalarda (SLC, NOVA) boş önizleme kutusu yerine dosyanın biçimi yazıyor.",
+      "USB ekranında modelin adı önizlemenin üstünde ikinci kez gösterilmiyor; katman kalınlığı rahat okunuyor.",
+      "Sol menüdeki \"Kalibrasyon\" yazısı diğerleriyle aynı boyda ve hizada görünüyor."
     ],
     "en": [
-      "A job sliced on the desktop is now accepted as it is: the layer images are stored in the library and the machine does not slice again.",
-      "The incoming job shows its name and progress on screen; once stored it is the selected model on the home screen and prints straight from \"Send and start\".",
-      "A job with missing layers or a broken archive is refused, and no half-written record or folder is left behind."
+      "Factory reset works: the database and the models are erased, the board is put back to standby and reset, and the application comes back up empty. It refuses while a print is running.",
+      "\"Check for updates\" says what came of it: \"Up to date\" in the corner when there is nothing newer.",
+      "On the USB screen a sliced file (SLC, NOVA) shows its format instead of an empty preview box.",
+      "On the USB screen the model's name is no longer repeated over the preview, so the layer thickness reads clearly.",
+      "The sidebar's \"Calibration\" label is the same size and spacing as the rest."
     ]
   }
 }
