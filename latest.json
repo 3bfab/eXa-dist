@@ -1,19 +1,33 @@
 {
-  "version": "0.9.12",
+  "version": "0.9.14",
   "channel": "pre-release",
-  "released_at": "2026-09-28",
-  "file": "EXA-v0.9.12",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.12/EXA-v0.9.12",
-  "sha256": "8d5e291b1d4a3a2f18b302c3c0fa37992fc392995c8219362023a73314121950",
-  "size": 162385624,
+  "released_at": "2026-10-06",
+  "file": "EXA-v0.9.14",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.14/EXA-v0.9.14",
+  "sha256": "8469e5ff5946af514759fc4db10aa340e7f6f4905fec8f61c800f4afa94ac4b4",
+  "size": 162401536,
   "notes": {
     "tr": [
-      "Giriş ekranında makine numarası alanı artık boş değil: makinenin MAC adresi yazıyor, ilk açılışta da fabrika ayarlarından sonra da.",
-      "Masaüstü uygulaması, henüz eşitlenmemiş bir makineyi arıza olarak görmüyor; \"hazır değil\" cevabı alıp tekrar deniyor."
+      "USB ekranında Dilimle'ye basıldığında işlem başlamıyordu: dilimleyici kendi ayar dosyalarını bulamadığı için uygulamayla buluşamıyordu. Artık başlıyor.",
+      "Baskı sürerken ekran koruyucu devreye girmiyor; ekran baskı boyunca makinenin durumunu göstermeye devam ediyor.",
+      "Uygulama ekranı devraldığında masaüstü paneli artık gerçekten kapanıyor.",
+      "Alt+F4 artık uygulamayı kapatmıyor; yanlışlıkla basılan bir tuş makineyi arayüzsüz bırakmıyor.",
+      "Kapat düğmesi çalışıyor: uygulama kapatma komutunu artık çalıştırabiliyor ve bilgisayar gerçekten kapanıyor.",
+      "Kurulu makinede fare imleci uygulamanın üzerinde görünmüyor; ekran dokunmatikle kullanıldığı için son dokunulan yerde duran imleç ekranın bir parçası gibi okunuyordu.",
+      "Baskı ikinci katmanda durmuyor: kart önceki katmanın \"tamamlandı\" işaretini bırakmadan yeni katman başlatılmıyor. Öncesinde hızlı makinelerde ikinci katman başlar başlamaz bitmiş sayılıyor ve baskı katman uyuşmazlığıyla kesiliyordu.",
+      "Sıfırlama sonrası dokunmatik kayması düzeltildi: hem fabrika ayarlarına dönüşten hem de MCU donanım sıfırlamasından sonra dokunmatik yeniden panele eşleniyor. Ayrıca fabrika sıfırlamasının sonundaki uygulama yeniden başlatması bazı yapılarda sessizce çalışmıyordu; o da düzeltildi.",
+      "Projektörde desen varken ekran koruyucu açılmıyor: \"LED Maskesi\" ve \"Odak Aç\" pencereleri açıkken (lamba yanmasa bile) ve tank küründe ekran kararmıyor."
     ],
     "en": [
-      "The machine number on the sign-in screen is no longer empty: it shows the machine's MAC, on a first start and after a factory reset alike.",
-      "The desktop application no longer reads a machine that has not synced yet as a failure; it is told \"not ready\" and asks again."
+      "Pressing Slice on the USB screen started nothing: the slicer could not find its own settings files and never met the application. It starts now.",
+      "The screensaver no longer comes up while a print is running; the screen keeps reporting the machine's state throughout.",
+      "The desktop panel is now really closed when the application takes the screen.",
+      "Alt+F4 no longer closes the application; a key pressed by accident can no longer leave the machine without an interface.",
+      "The shutdown button works: the application can run the power-off command again, and the computer really switches off.",
+      "The mouse pointer no longer shows over the application on a built machine; the screen is driven by touch, and a pointer left where the last touch landed read as part of it.",
+      "A print no longer stops on the second layer: a new layer is not started until the MCU has dropped the previous layer's completion flags. On a fast machine the second layer was read as finished the instant it began, and the print ended on a layer mismatch.",
+      "Presses no longer land away from the target after a reset: the touchscreen is re-bound to the panel after a factory reset and after the MCU hardware reset alike. The restart at the end of a factory reset also failed silently on bundled builds; that is fixed too.",
+      "No screensaver while a pattern is on the projector: the LED-mask and Open Focus windows -- lamp lit or not -- and a tank cure hold the screen."
     ]
   }
 }
