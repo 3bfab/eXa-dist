@@ -1,33 +1,37 @@
 {
-  "version": "0.9.14",
+  "version": "0.10.0",
   "channel": "pre-release",
-  "released_at": "2026-10-06",
-  "file": "EXA-v0.9.14",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.9.14/EXA-v0.9.14",
-  "sha256": "8469e5ff5946af514759fc4db10aa340e7f6f4905fec8f61c800f4afa94ac4b4",
-  "size": 162401536,
+  "released_at": "2026-10-08",
+  "file": "EXA-v0.10.0",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.10.0/EXA-v0.10.0",
+  "sha256": "623116a765c14ddac4d845b9e769190c5a95da36a660ad4b984a34d1ea582127",
+  "size": 162449888,
   "notes": {
     "tr": [
-      "USB ekranında Dilimle'ye basıldığında işlem başlamıyordu: dilimleyici kendi ayar dosyalarını bulamadığı için uygulamayla buluşamıyordu. Artık başlıyor.",
-      "Baskı sürerken ekran koruyucu devreye girmiyor; ekran baskı boyunca makinenin durumunu göstermeye devam ediyor.",
-      "Uygulama ekranı devraldığında masaüstü paneli artık gerçekten kapanıyor.",
-      "Alt+F4 artık uygulamayı kapatmıyor; yanlışlıkla basılan bir tuş makineyi arayüzsüz bırakmıyor.",
-      "Kapat düğmesi çalışıyor: uygulama kapatma komutunu artık çalıştırabiliyor ve bilgisayar gerçekten kapanıyor.",
-      "Kurulu makinede fare imleci uygulamanın üzerinde görünmüyor; ekran dokunmatikle kullanıldığı için son dokunulan yerde duran imleç ekranın bir parçası gibi okunuyordu.",
-      "Baskı ikinci katmanda durmuyor: kart önceki katmanın \"tamamlandı\" işaretini bırakmadan yeni katman başlatılmıyor. Öncesinde hızlı makinelerde ikinci katman başlar başlamaz bitmiş sayılıyor ve baskı katman uyuşmazlığıyla kesiliyordu.",
-      "Sıfırlama sonrası dokunmatik kayması düzeltildi: hem fabrika ayarlarına dönüşten hem de MCU donanım sıfırlamasından sonra dokunmatik yeniden panele eşleniyor. Ayrıca fabrika sıfırlamasının sonundaki uygulama yeniden başlatması bazı yapılarda sessizce çalışmıyordu; o da düzeltildi.",
-      "Projektörde desen varken ekran koruyucu açılmıyor: \"LED Maskesi\" ve \"Odak Aç\" pencereleri açıkken (lamba yanmasa bile) ve tank küründe ekran kararmıyor."
+      "Baskı sırasında başarısız olan bir modeli, baskıyı iptal etmeden atlayabilirsiniz: \"Model Atla\" ile plakadaki modeli seçiyorsunuz, sonraki katmanlarda o model basılmıyor, geri kalan plaka devam ediyor.",
+      "Baskı ekranı yeniden düzenlendi: üstte kaç modelin hâlâ basıldığı, ilerleme halkasının yanında hangi aşamada olduğu (Auto Base / Modeller), kalan süre ile birlikte bitiş saati, ve atlanan modeller katman görüntüsünün üzerinde kırmızıyla işaretli.",
+      "Baskı ekranının üst şeridi sadeleşti: durumu zaten ortadaki halka söylüyor, ağ adı ve \"Reçine\" yazısı kaldırıldı; model adının yanına Auto Base işareti geldi.",
+      "Açılış ekranında artık kart yazılımı yerine uygulamanın sürümü yazıyor.",
+      "Makineye takılı bir klavyede Esc artık ekranı değiştirmiyor; baskı sırasında veya giriş ekranında yanlışlıkla ana ekrana atmıyor.",
+      "Baskı başlarken tabla konumuna getirilirken ekran bunu söylüyor; ısıtma penceresi tabla hazır olunca açılıyor.",
+      "Uzun ısıtmadan sonra baskının hiç başlamaması düzeltildi: yazıcı ısıtmadan vazgeçmeden önce baskı mevcut sıcaklıkla başlatılıyor.",
+      "\"Baskı başarılı mı?\" sorusu cevaplanana kadar ekran koruyucu açılmıyor.",
+      "Model Atla, ikinci baskıda önceki baskının plakasını ve atlanan modellerini göstermiyor.",
+      "Model Atla ekranında plaka modellerin kapladığı alana yakınlaşıyor; numaralar okunuyor.",
+      "Makine yerel ağ adresini NovaHub'a bildiriyor; masaüstü uygulaması makineyi buluyor."
     ],
     "en": [
-      "Pressing Slice on the USB screen started nothing: the slicer could not find its own settings files and never met the application. It starts now.",
-      "The screensaver no longer comes up while a print is running; the screen keeps reporting the machine's state throughout.",
-      "The desktop panel is now really closed when the application takes the screen.",
-      "Alt+F4 no longer closes the application; a key pressed by accident can no longer leave the machine without an interface.",
-      "The shutdown button works: the application can run the power-off command again, and the computer really switches off.",
-      "The mouse pointer no longer shows over the application on a built machine; the screen is driven by touch, and a pointer left where the last touch landed read as part of it.",
-      "A print no longer stops on the second layer: a new layer is not started until the MCU has dropped the previous layer's completion flags. On a fast machine the second layer was read as finished the instant it began, and the print ended on a layer mismatch.",
-      "Presses no longer land away from the target after a reset: the touchscreen is re-bound to the panel after a factory reset and after the MCU hardware reset alike. The restart at the end of a factory reset also failed silently on bundled builds; that is fixed too.",
-      "No screensaver while a pattern is on the projector: the LED-mask and Open Focus windows -- lamp lit or not -- and a tank cure hold the screen."
+      "A model that fails during a print can be skipped instead of cancelling the plate: pick it on the plate under \"Model Skip\" and it stops printing from the next layer on, while the rest of the plate carries on.",
+      "The print screen is laid out again: how much of the plate is still printing, which half of the print is going down (auto base or the models), the clock time the plate comes off, and the skipped models marked in red over the layer picture.",
+      "The print screen's top bar is down to what matters while a plate runs, and the auto-base mark sits next to the model's name.",
+      "The splash screen shows the application's own version instead of the board's firmware.",
+      "Esc on a keyboard plugged into the machine no longer changes the screen; it cannot drop the operator onto the home screen mid-print or past the sign-in.",
+      "While the platform is homed at the start of a print the screen says so; the heating window opens once the platform is ready.",
+      "A print that never started after a long heating is fixed: it starts with the resin as it is before the printer gives up heating.",
+      "No screensaver until \"Was the print successful?\" has been answered.",
+      "Model Skip no longer shows the previous print's plate and skipped models on the next print.",
+      "The Model Skip screen zooms to the part of the plate the models occupy, so their numbers can be read.",
+      "The machine tells NovaHub its local network address, so the desktop application can find it."
     ]
   }
 }
