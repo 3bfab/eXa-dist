@@ -6,5 +6,14 @@
   "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.10.2/EXA-v0.10.2",
   "sha256": "9fe88e141416c09f0da172b5385e52661dda3c5b0094aa48836eaad2ae79527e",
   "size": 162488624,
-  "notes": {}
+  "notes": {
+    "tr": [
+      "Masaüstünden (FabSlicer) gönderilen bir iş makineye ulaştığında ekran koruyucu kendiliğinden kapanıyor ve iş bitene kadar ekran açık kalıyor: yükleme, dilimleme ve çoklu tabla gönderimi boyunca. Önceden uzaktan başlatılan dilimleme karanlık ekranın arkasında kalıyordu.",
+      "Makine, kendisinin dilimlediği modellerin katman sayısını masaüstüne bildiriyor; FabSlicer'daki baskı geçmişinde katman sayısı tahmin yerine gerçek değerle görünüyor."
+    ],
+    "en": [
+      "When a job sent from the desk (FabSlicer) reaches the machine, the screensaver closes by itself and the screen stays on until the job is over: through the upload, the slicing and a multi-plate send. Before, a remotely started slice ran behind a blanked screen.",
+      "The machine reports the layer count of the models it sliced to the desk; FabSlicer's print history shows the real count instead of an estimate."
+    ]
+  }
 }
