@@ -1,21 +1,17 @@
 {
-  "version": "0.10.3",
+  "version": "0.10.4",
   "channel": "pre-release",
-  "released_at": "2026-10-12",
-  "file": "EXA-v0.10.3",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.10.3/EXA-v0.10.3",
-  "sha256": "b9363b6254fefb26366e5a4c8517b5f8ae2a502c1cc71997ed4dfc2346972a8c",
-  "size": 162492544,
+  "released_at": "2026-10-13",
+  "file": "EXA-v0.10.4",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.10.4/EXA-v0.10.4",
+  "sha256": "0871e2713c3630d36f93d91654ab8a02f8716856b813b8055a2e97233f8efc77",
+  "size": 162492344,
   "notes": {
     "tr": [
-      "NovaHub'daki baskı ayarları mevcut firmware'in kriterlerini karşılamıyorsa baskı başlamıyor ve ana ekranda bu söyleniyor; baskı ekranına geçip açıklamasız durmuyor.",
-      "\"Ayarları Güncelle\" önce makinede bekleyen baskı kayıtlarını gönderiyor, sonra ayarları çekiyor; masaüstünden gelen \"ayarları güncelle\" isteği de artık aynısını yapıyor.",
-      "Baskı ekranında \"İlerleme\" başlığının yanındaki aşamalar (Auto Base · Taban · Modeller) başlığın üstüne binmiyor; kendi satırında duruyor."
+      "KVKK/GDPR ekranında onay verildikten sonra ekranın geçmemesi düzeltildi: onay NovaHub'a kaydedildiği anda devam ediliyor (yeni kurulumda ve fabrika ayarlarından sonra da)."
     ],
     "en": [
-      "If the print settings from NovaHub do not meet the current firmware's requirements, the print does not start and the Home screen says so, instead of stopping on the print screen with nothing to say why.",
-      "\"Update Settings\" sends the print logs the machine is still holding before it pulls the settings, and the desk's own \"update settings\" now does the same.",
-      "On the print screen the steps beside \"Progress\" (Auto Base · Base · Models) no longer run over the title; they sit on a line of their own."
+      "Fixed the privacy (GDPR) screen not letting the operator past after accepting: once NovaHub records the consent the app carries on, on a fresh install and after a factory reset too."
     ]
   }
 }
