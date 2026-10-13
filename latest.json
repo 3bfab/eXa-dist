@@ -1,17 +1,17 @@
 {
-  "version": "0.10.4",
+  "version": "0.10.5",
   "channel": "pre-release",
   "released_at": "2026-10-13",
-  "file": "EXA-v0.10.4",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.10.4/EXA-v0.10.4",
-  "sha256": "0871e2713c3630d36f93d91654ab8a02f8716856b813b8055a2e97233f8efc77",
-  "size": 162492344,
+  "file": "EXA-v0.10.5",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.10.5/EXA-v0.10.5",
+  "sha256": "4c5128b3d62e907e993212a36128b843c883d86acc7323e2b057afa85bf5d8ff",
+  "size": 162493480,
   "notes": {
     "tr": [
-      "KVKK/GDPR ekranında onay verildikten sonra ekranın geçmemesi düzeltildi: onay NovaHub'a kaydedildiği anda devam ediliyor (yeni kurulumda ve fabrika ayarlarından sonra da)."
+      "Kart yeniden başlatıldıktan sonra dokunmatik ekran eşlenirken ekran düzeni ve masaüstü artık yeniden kurulmuyor. Önceden bazı makinelerde bu yüzden USB bellek takıldığında görünmüyordu."
     ],
     "en": [
-      "Fixed the privacy (GDPR) screen not letting the operator past after accepting: once NovaHub records the consent the app carries on, on a fresh install and after a factory reset too."
+      "Re-binding the touchscreen after a board restart no longer rebuilds the screen layout and the desktop. On some machines this used to stop USB sticks from showing up when plugged in."
     ]
   }
 }
