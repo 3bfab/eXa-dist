@@ -1,17 +1,17 @@
 {
-  "version": "0.10.5",
+  "version": "0.11.1",
   "channel": "pre-release",
-  "released_at": "2026-10-13",
-  "file": "EXA-v0.10.5",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.10.5/EXA-v0.10.5",
-  "sha256": "4c5128b3d62e907e993212a36128b843c883d86acc7323e2b057afa85bf5d8ff",
-  "size": 162493480,
+  "released_at": "2026-10-14",
+  "file": "EXA-v0.11.1",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.11.1/EXA-v0.11.1",
+  "sha256": "7a0ea28c3602fa78749ab7a66633078f28f1c218cf3f6479256984f4b4a6e6b9",
+  "size": 162564648,
   "notes": {
     "tr": [
-      "Kart yeniden başlatıldıktan sonra dokunmatik ekran eşlenirken ekran düzeni ve masaüstü artık yeniden kurulmuyor. Önceden bazı makinelerde bu yüzden USB bellek takıldığında görünmüyordu."
+      "KVKK aydınlatma metnindeki başvuru adresi güncellendi: Dudullu OSB. İmes 501. Sk No:9 3BFAB PK: 34771 Ümraniye / İstanbul, Türkiye."
     ],
     "en": [
-      "Re-binding the touchscreen after a board restart no longer rebuilds the screen layout and the desktop. On some machines this used to stop USB sticks from showing up when plugged in."
+      "The application address in the Turkish personal data (KVKK) notice is updated to 3BFab's new address in Dudullu OSB, Ümraniye / İstanbul."
     ]
   }
 }
