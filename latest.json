@@ -1,17 +1,17 @@
 {
-  "version": "0.11.2",
+  "version": "0.11.3",
   "channel": "pre-release",
   "released_at": "2026-10-16",
-  "file": "EXA-v0.11.2",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.11.2/EXA-v0.11.2",
-  "sha256": "ab83ce3e972bf2e8e9ac52542438116d02eef0a316f3533d443475506cc88c74",
-  "size": 162566224,
+  "file": "EXA-v0.11.3",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.11.3/EXA-v0.11.3",
+  "sha256": "0e32d1318edab0037e674327e113948d12672e269ac8bf251f626c48d3885cc3",
+  "size": 162568136,
   "notes": {
     "tr": [
-      "Ayarlar > Sistem'e \"Hesap\" satırı eklendi: hangi hesapla giriş yapıldığı görünüyor ve \"Çıkış yap\" ile makineden çıkış yapılabiliyor. Modeller, profiller ve ayarlar silinmiyor; baskı sürerken çıkış yapılamıyor."
+      "QR ile giriş yapıldığında Ayarlar > Sistem'deki \"Hesap\" satırında hesap adının boş görünmesi düzeltildi; ad yeniden başlatmadan sonra da korunuyor."
     ],
     "en": [
-      "An \"Account\" row in Settings > System shows which account the machine is signed in with, and \"Sign out\" signs it out. Models, profiles and settings stay; signing out waits for a running print to finish."
+      "After signing in with a QR code, the \"Account\" row in Settings > System no longer shows an empty name, and the name survives a restart."
     ]
   }
 }
