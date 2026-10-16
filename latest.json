@@ -4,8 +4,8 @@
   "released_at": "2026-10-16",
   "file": "EXA-v0.11.4",
   "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.11.4/EXA-v0.11.4",
-  "sha256": "609f24d0e28b3c6595409de115970b77575635816a5adef2fc937aeca71cb2c1",
-  "size": 162570392,
+  "sha256": "9b6b0121642d611db2b3dcbbe6085db1ed320eb823793a891da14b6c3440d2f1",
+  "size": 162570336,
   "notes": {
     "tr": [
       "NovaHub'dan değiştirilen yazıcı ayarları (z-distance, ışık gücü, ısıtıcı değerleri) artık uygulamayı kapatıp açmadan yazıcıya uygulanıyor. Baskı sürerken bekletiliyor.",
