@@ -1,0 +1,19 @@
+{
+  "version": "0.11.4",
+  "channel": "stable",
+  "released_at": "2026-10-16",
+  "file": "EXA-v0.11.4",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.11.4/EXA-v0.11.4",
+  "sha256": "9b6b0121642d611db2b3dcbbe6085db1ed320eb823793a891da14b6c3440d2f1",
+  "size": 162570336,
+  "notes": {
+    "tr": [
+      "NovaHub'dan değiştirilen yazıcı ayarları (z-distance, ışık gücü, ısıtıcı değerleri) artık uygulamayı kapatıp açmadan yazıcıya uygulanıyor. Baskı sürerken bekletiliyor.",
+      "USB bellekte modeller artık tüm alt klasörlerde, gizli klasörler dahil aranıyor. Çöp kutusu klasörleri atlanıyor."
+    ],
+    "en": [
+      "Printer settings changed on NovaHub (z-distance, light power, heater values) now reach the printer without restarting the app. During a print they wait.",
+      "Models on a USB stick are now found in every folder, hidden folders included. Trash folders are skipped."
+    ]
+  }
+}
