@@ -1,19 +1,23 @@
 {
-  "version": "0.11.4",
+  "version": "0.12.1",
   "channel": "stable",
-  "released_at": "2026-10-16",
-  "file": "EXA-v0.11.4",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.11.4/EXA-v0.11.4",
-  "sha256": "9b6b0121642d611db2b3dcbbe6085db1ed320eb823793a891da14b6c3440d2f1",
-  "size": 162570336,
+  "released_at": "2026-10-19",
+  "file": "EXA-v0.12.1",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.12.1/EXA-v0.12.1",
+  "sha256": "9e6a6bb4117f9b550e608990b65ffabc22e047aa441990ce36e33a2e4f9bddd4",
+  "size": 151893296,
   "notes": {
     "tr": [
-      "NovaHub'dan değiştirilen yazıcı ayarları (z-distance, ışık gücü, ısıtıcı değerleri) artık uygulamayı kapatıp açmadan yazıcıya uygulanıyor. Baskı sürerken bekletiliyor.",
-      "USB bellekte modeller artık tüm alt klasörlerde, gizli klasörler dahil aranıyor. Çöp kutusu klasörleri atlanıyor."
+      "NovaOS (yeni işletim sistemi) makineleri için destek: güncellemeler artık makinenin işletim sistemine uygun sürümü indiriyor.",
+      "Uygulama paketi küçüldü (155 MB yerine 90 MB); güncelleme indirmesi daha kısa sürüyor.",
+      "Yazıcıyla iletişimde kısa bir aksama olduğunda baskının birkaç katman sonra \"Printing-013\" hatasıyla durması düzeltildi.",
+      "Ana ekranın üst çubuğundaki seri numarası artık son haneyi göstermiyor (…0040 → 004)."
     ],
     "en": [
-      "Printer settings changed on NovaHub (z-distance, light power, heater values) now reach the printer without restarting the app. During a print they wait.",
-      "Models on a USB stick are now found in every folder, hidden folders included. Trash folders are skipped."
+      "Support for NovaOS (the new operating system) machines: updates now download the build that matches the machine's operating system.",
+      "The application package is smaller (90 MB instead of 155 MB); update downloads take less time.",
+      "Fixed a print stopping a few layers later with \"Printing-013\" after a brief hiccup in communication with the printer.",
+      "The serial number in the home screen's top bar no longer shows its last digit (…0040 → 004)."
     ]
   }
 }
