@@ -1,39 +1,19 @@
 {
-  "version": "0.13.3",
+  "version": "0.13.4",
   "channel": "stable-nova",
   "released_at": "2026-11-09",
-  "file": "EXA-v0.13.3-nova",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.3/EXA-v0.13.3-nova",
-  "sha256": "d9c72ff9ef726a98cf7b57e3ec558c63b2f509a0b5539eaa57e09310a64cc88f",
-  "size": 91470928,
+  "file": "EXA-v0.13.4",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.4/EXA-v0.13.4-nova",
+  "sha256": "995a95a0b6410570ddb7f10dca9dce81b44f6c66725e6080843965c44b95a812",
+  "size": 152751984,
   "notes": {
     "tr": [
-      "Baskı sırasında makine bir uyarı verirse pencerede Tekrar Dene yerine \"Baskıyı durdur ve resetle\" var: baskı İptal gibi durdurulur, tabla kalkar, sonra kart resetlenir. Baskı ortasında doğrudan reset artık yapılmıyor.",
-      "Projektör görüntüsü/iletişimi kopar ya da Z ekseni konumunu kaybederse baskı otomatik durduruluyor ve nedeni kodlarıyla gösteriliyor; Z hatasında tabla hareket ettirilmiyor.",
-      "Baskı sırasında projektörün HDMI bağlantısı izleniyor; bağlantı koparsa baskı durduruluyor.",
-      "Baskı arızayla ya da Z hatasıyla tabla aşağıdayken biterse, makine hazır olduğunda tablayı kaldırmak için onay isteniyor.",
-      "Projektör söküp takıldıktan sonra dokunmatik ekranın tepki vermemesi düzeltildi: sistem dokunmatiği bıraksa da uygulama dokunuşları doğrudan okuyor.",
-      "Makinenin aynı uyarısı (ör. E103 plaka aşırı sıcak) baskı boyunca tekrar tekrar açılmıyor; yalnızca yeni bir kod geldiğinde açılıyor.",
-      "Kart yeniden başlarken \"Kart yeniden başlıyor\" bildirimi yeniden görünüyor.",
-      "Seri hattaki tek bir okuma hatası artık arıza sayılmıyor; baskıyı bitirmiyor ve NovaHub'a arıza bildirmiyor.",
-      "Başarısız bir durdurma İptal düğmesiyle yeniden gönderilebiliyor; yeni baskı bir öncekinin süresi ve durumuyla başlamıyor.",
-      "Baskı sonucu penceresi çevrimdışıyken operatörü bekletmiyor; cevap kaydediliyor ve sonraki senkronda gönderiliyor.",
-      "Baskı hata penceresi gerçek hata kodunu gösteriyor; güncelleme kurulduktan sonra Yeniden Başlat düğmesi kayboluyor sorunu giderildi.",
-      "Wi-Fi kurulumunda girişe geçiş eklendi; QR ile girişte eski cevapların karışması ve uzaktan dilimleme penceresinin takılı kalması düzeltildi."
+      "Güncelleme kanalı artık işletim sisteminden belirleniyor: Xubuntu makineleri Xubuntu sürümlerini, NovaOS makineleri NovaOS sürümlerini alıyor.",
+      "Yazıcı yazılımı (firmware) 0.6.0.0'dan eskiyse uygulama bunu açılışta söylüyor; eski yazılımla baskı başlamadan duruyordu."
     ],
     "en": [
-      "When the machine warns during a print, the window offers \"Stop print and reset\" instead of Retry: the print is stopped as Cancel stops it, the platform is raised, then the board is reset. The board is never reset in the middle of a print.",
-      "If the projector loses its video or communication, or the Z axis loses its position, the print is stopped automatically and the codes are shown; after a Z error the platform is not moved.",
-      "The projector's HDMI link is watched during a print; if it drops, the print is stopped.",
-      "When a print ends with the platform down (a fault or a Z error), the operator is asked to raise it once the machine is ready.",
-      "The touch screen no longer stops answering after the projector is unplugged and plugged back in: when the system drops the panel, the app reads the touches directly.",
-      "The same machine warning (e.g. E103 plate over temperature) no longer reopens again and again during a print; only a new code opens it.",
-      "The \"board is restarting\" notice shows again while the board restarts.",
-      "A single failed serial read is no longer treated as a fault: it does not end the print or report a fault to NovaHub.",
-      "A stop that failed can be sent again with Cancel; a new print no longer starts with the previous one's clock and state.",
-      "The print result window no longer holds the operator when offline; the answer is kept and sent with the next sync.",
-      "The print error window shows the real error code; the Restart button no longer disappears after an update is installed.",
-      "Wi-Fi setup has a way on to sign-in; QR sign-in no longer mixes up stale answers, and a refused remote slice no longer leaves its window open."
+      "The update channel now follows the operating system: Xubuntu machines get Xubuntu builds, NovaOS machines get NovaOS builds.",
+      "Printer firmware older than 0.6.0.0 is reported at start-up; with older firmware a print stopped before it began."
     ]
   }
 }
