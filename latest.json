@@ -1,19 +1,21 @@
 {
-  "version": "0.13.4",
+  "version": "0.13.6",
   "channel": "stable-nova",
-  "released_at": "2026-11-09",
-  "file": "EXA-v0.13.4",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.4/EXA-v0.13.4-nova",
-  "sha256": "995a95a0b6410570ddb7f10dca9dce81b44f6c66725e6080843965c44b95a812",
-  "size": 152751984,
+  "released_at": "2026-11-10",
+  "file": "EXA-v0.13.6-nova",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.6/EXA-v0.13.6-nova",
+  "sha256": "ddb28bb36681bf6ab7f09b62f1e15aca14cbd2510ac2384589218c4b600e0152",
+  "size": 91483384,
   "notes": {
     "tr": [
-      "Güncelleme kanalı artık işletim sisteminden belirleniyor: Xubuntu makineleri Xubuntu sürümlerini, NovaOS makineleri NovaOS sürümlerini alıyor.",
-      "Yazıcı yazılımı (firmware) 0.6.0.0'dan eskiyse uygulama bunu açılışta söylüyor; eski yazılımla baskı başlamadan duruyordu."
+      "Baskı bitince gelen \"Baskı başarılı mı?\" penceresi internet yokken donmuyor: cevap kaydediliyor, Tamam ile devam edilebiliyor, istenirse Wi-Fi ekranına geçilebiliyor; cevap bağlantı gelince gönderiliyor.",
+      "Çevrimdışı baskı hakkı: NovaHub'a ulaşılamadığında makine 50 baskıya kadar çalışmaya devam ediyor; NovaHub yeniden \"aktif\" dediğinde hak 50'ye dönüyor.",
+      "USB yazıcı kablosu takılı değilken açılış penceresi \"Yazıcı cevap vermiyor\" yerine \"Karta bağlanmadı, kart kablosunu kontrol edin\" diyor."
     ],
     "en": [
-      "The update channel now follows the operating system: Xubuntu machines get Xubuntu builds, NovaOS machines get NovaOS builds.",
-      "Printer firmware older than 0.6.0.0 is reported at start-up; with older firmware a print stopped before it began."
+      "The \"Was the print successful?\" window no longer freezes without internet: the answer is kept, OK carries on, the Wi-Fi screen is one tap away; the answer is sent once the machine is online.",
+      "Offline print allowance: when NovaHub cannot be reached the machine keeps printing, up to 50 prints; the allowance is back to 50 when NovaHub says \"active\" again.",
+      "When the USB printer cable is not plugged in, the start-up window says \"check its cable\" instead of \"the printer is not answering\"."
     ]
   }
 }
