@@ -1,19 +1,27 @@
 {
-  "version": "0.13.4",
+  "version": "0.13.5",
   "channel": "stable",
-  "released_at": "2026-11-09",
-  "file": "EXA-v0.13.4",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.4/EXA-v0.13.4",
-  "sha256": "995a95a0b6410570ddb7f10dca9dce81b44f6c66725e6080843965c44b95a812",
-  "size": 152751984,
+  "released_at": "2026-11-10",
+  "file": "EXA-v0.13.5",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.5/EXA-v0.13.5",
+  "sha256": "c724554bffea18c955c7b10c4a13b4665e2748dc8b0ac7913e7bfaa1715e8ed1",
+  "size": 152759712,
   "notes": {
     "tr": [
-      "Güncelleme kanalı artık işletim sisteminden belirleniyor: Xubuntu makineleri Xubuntu sürümlerini, NovaOS makineleri NovaOS sürümlerini alıyor.",
-      "Yazıcı yazılımı (firmware) 0.6.0.0'dan eskiyse uygulama bunu açılışta söylüyor; eski yazılımla baskı başlamadan duruyordu."
+      "Okunamayan bir auto-base kapağı (yarım yazılmış dosya) yüzünden baskının AB-005 ile durması düzeltildi: kapak yeniden üretiliyor.",
+      "Açılışta bir sorun çıktığında pencerede \"Wi-Fi'a bağlan\" ve \"Tekrar dene\" var; Wi-Fi bağlanınca açılış kendiliğinden yeniden deneniyor.",
+      "Açılış sorunları penceresinde teknik destek kutusu: Wi-Fi durumu, seri numarası, TeamViewer ID, yazılım ve yazıcı sürümü.",
+      "Açılış ekranındaki \"Bağlantı yok\" rozetine dokununca Wi-Fi ekranı açılıyor.",
+      "Destek hotspot'u: telefonda \"DentaFab-Support\" adıyla hotspot açıldığında makine ekrana dokunmadan bağlanıyor; yalnızca bilinen başka ağ yokken.",
+      "Yazıcı yazılımı 0.6.0.0'dan eskiyse açılışta söyleniyor; güncelleme kanalı işletim sistemine göre seçiliyor."
     ],
     "en": [
-      "The update channel now follows the operating system: Xubuntu machines get Xubuntu builds, NovaOS machines get NovaOS builds.",
-      "Printer firmware older than 0.6.0.0 is reported at start-up; with older firmware a print stopped before it began."
+      "A print no longer stops with AB-005 over an auto base cover that cannot be read (a half-written file): the cover is made again.",
+      "When start-up runs into a problem, the window offers \"Connect to Wi-Fi\" and \"Retry\"; once Wi-Fi is connected the start-up runs again by itself.",
+      "A technical support box on the start-up problems window: Wi-Fi state, serial number, TeamViewer ID, software and printer versions.",
+      "Tapping the \"No connection\" badge on the start screen opens the Wi-Fi screen.",
+      "Support hotspot: when a phone hotspot named \"DentaFab-Support\" is opened, the machine joins it without touching the screen; only when no known network is in reach.",
+      "Printer firmware older than 0.6.0.0 is reported at start-up; the update channel follows the operating system."
     ]
   }
 }
