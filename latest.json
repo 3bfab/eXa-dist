@@ -1,21 +1,17 @@
 {
-  "version": "0.13.6",
+  "version": "0.13.7",
   "channel": "stable",
-  "released_at": "2026-11-10",
-  "file": "EXA-v0.13.6",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.6/EXA-v0.13.6",
-  "sha256": "a7b1b05acd3ecde2e2a080f0a62bdb6d9b03673d1946bbddcc6fd6c1a4bdb85b",
-  "size": 152763168,
+  "released_at": "2026-11-11",
+  "file": "EXA-v0.13.7",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.7/EXA-v0.13.7",
+  "sha256": "51e3483a53d5a86b4987db1186ac22278ff271726dedb959541461cc3980569f",
+  "size": 152767648,
   "notes": {
     "tr": [
-      "Baskı bitince gelen \"Baskı başarılı mı?\" penceresi internet yokken donmuyor: cevap kaydediliyor, Tamam ile devam edilebiliyor, istenirse Wi-Fi ekranına geçilebiliyor; cevap bağlantı gelince gönderiliyor.",
-      "Çevrimdışı baskı hakkı: NovaHub'a ulaşılamadığında makine 50 baskıya kadar çalışmaya devam ediyor; NovaHub yeniden \"aktif\" dediğinde hak 50'ye dönüyor.",
-      "USB yazıcı kablosu takılı değilken açılış penceresi \"Yazıcı cevap vermiyor\" yerine \"Karta bağlanmadı, kart kablosunu kontrol edin\" diyor."
+      "Makinede ilk kez giriş yapıldığında auto-base açılıyor ve ilk auto-base seçiliyor; sonraki girişler seçimi değiştirmiyor. Auto-base yoksa hiçbir şey değişmiyor."
     ],
     "en": [
-      "The \"Was the print successful?\" window no longer freezes without internet: the answer is kept, OK carries on, the Wi-Fi screen is one tap away; the answer is sent once the machine is online.",
-      "Offline print allowance: when NovaHub cannot be reached the machine keeps printing, up to 50 prints; the allowance is back to 50 when NovaHub says \"active\" again.",
-      "When the USB printer cable is not plugged in, the start-up window says \"check its cable\" instead of \"the printer is not answering\"."
+      "The first sign-in on a machine switches the auto base on and selects the first auto base; later sign-ins leave the choice alone. With no auto base, nothing changes."
     ]
   }
 }
