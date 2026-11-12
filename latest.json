@@ -1,0 +1,19 @@
+{
+  "version": "0.13.8",
+  "channel": "pre-release-nova",
+  "released_at": "2026-11-12",
+  "file": "EXA-v0.13.8-nova",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.8/EXA-v0.13.8-nova",
+  "sha256": "7be29d9aa27e1915133caa93124e4dc3bd5d30bceb274b97fe0bf3ba47e3f429",
+  "size": 91493112,
+  "notes": {
+    "tr": [
+      "Auto-base: plakanın köşe ve kenar işaretleri gibi her katmanda aynı kalan parçalara taban çizilmiyor.",
+      "Auto-base kapağı katman sırasıyla oluşturuluyor (her 3. katman, ilk ve son her zaman dahil); taban üretimi daha hızlı ve daha az bellek kullanıyor."
+    ],
+    "en": [
+      "Auto base: parts that are the same on every layer, such as the plate's corner and edge markers, no longer get a base.",
+      "The auto base cover is built in layer order (every 3rd layer, first and last always included); base generation is faster and uses less memory."
+    ]
+  }
+}
