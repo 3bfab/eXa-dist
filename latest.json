@@ -1,23 +1,19 @@
 {
-  "version": "0.12.1",
+  "version": "0.13.8",
   "channel": "pre-release",
-  "released_at": "2026-10-19",
-  "file": "EXA-v0.12.1",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.12.1/EXA-v0.12.1",
-  "sha256": "9e6a6bb4117f9b550e608990b65ffabc22e047aa441990ce36e33a2e4f9bddd4",
-  "size": 151893296,
+  "released_at": "2026-11-12",
+  "file": "EXA-v0.13.8",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.8/EXA-v0.13.8",
+  "sha256": "ed5bdb0ac2f48314d75e2a7ff13b66783331f198a1120360cc9c2574a7f130d7",
+  "size": 152774704,
   "notes": {
     "tr": [
-      "NovaOS (yeni işletim sistemi) makineleri için destek: güncellemeler artık makinenin işletim sistemine uygun sürümü indiriyor.",
-      "Uygulama paketi küçüldü (155 MB yerine 90 MB); güncelleme indirmesi daha kısa sürüyor.",
-      "Yazıcıyla iletişimde kısa bir aksama olduğunda baskının birkaç katman sonra \"Printing-013\" hatasıyla durması düzeltildi.",
-      "Ana ekranın üst çubuğundaki seri numarası artık son haneyi göstermiyor (…0040 → 004)."
+      "Auto-base: plakanın köşe ve kenar işaretleri gibi her katmanda aynı kalan parçalara taban çizilmiyor.",
+      "Auto-base kapağı katman sırasıyla oluşturuluyor (her 3. katman, ilk ve son her zaman dahil); taban üretimi daha hızlı ve daha az bellek kullanıyor."
     ],
     "en": [
-      "Support for NovaOS (the new operating system) machines: updates now download the build that matches the machine's operating system.",
-      "The application package is smaller (90 MB instead of 155 MB); update downloads take less time.",
-      "Fixed a print stopping a few layers later with \"Printing-013\" after a brief hiccup in communication with the printer.",
-      "The serial number in the home screen's top bar no longer shows its last digit (…0040 → 004)."
+      "Auto base: parts that are the same on every layer, such as the plate's corner and edge markers, no longer get a base.",
+      "The auto base cover is built in layer order (every 3rd layer, first and last always included); base generation is faster and uses less memory."
     ]
   }
 }
