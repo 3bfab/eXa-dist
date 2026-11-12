@@ -1,19 +1,21 @@
 {
-  "version": "0.13.8",
+  "version": "0.13.9",
   "channel": "pre-release-nova",
   "released_at": "2026-11-12",
-  "file": "EXA-v0.13.8-nova",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.8/EXA-v0.13.8-nova",
-  "sha256": "7be29d9aa27e1915133caa93124e4dc3bd5d30bceb274b97fe0bf3ba47e3f429",
-  "size": 91493112,
+  "file": "EXA-v0.13.9-nova",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.9/EXA-v0.13.9-nova",
+  "sha256": "33b1b7826f06840abcdf9249512aa261353ea150d674768d46765a2fe08b266c",
+  "size": 91494504,
   "notes": {
     "tr": [
-      "Auto-base: plakanın köşe ve kenar işaretleri gibi her katmanda aynı kalan parçalara taban çizilmiyor.",
-      "Auto-base kapağı katman sırasıyla oluşturuluyor (her 3. katman, ilk ve son her zaman dahil); taban üretimi daha hızlı ve daha az bellek kullanıyor."
+      "Büyük modeller (3 GB'a kadar STL) USB'den dilimlenebiliyor: dilimleyici yüklemeyi bellek yerine diske alıyor, büyük dosyaya gönderim için yeterli süre tanınıyor.",
+      "Tam ekran katman görünümünde BASE düğmesi: auto-base açıkken plakanın tabanı katmanın yerinde gösteriliyor; taban yoksa seçili ayarlarla çiziliyor.",
+      "Auto-base V2: köşe L işaretleri ve çubuklar tabanda korunuyor."
     ],
     "en": [
-      "Auto base: parts that are the same on every layer, such as the plate's corner and edge markers, no longer get a base.",
-      "The auto base cover is built in layer order (every 3rd layer, first and last always included); base generation is faster and uses less memory."
+      "Large models (STL files up to 3 GB) can be sliced from USB: the slicer takes the upload on disk instead of in memory, and a large file gets enough time to be sent.",
+      "BASE button in the full-screen layer view: with the auto base switched on, the plate's base is shown in place of the layer; with none drawn yet, one is drawn with the selected settings.",
+      "Auto base V2 keeps the corner L markers and the bars."
     ]
   }
 }
