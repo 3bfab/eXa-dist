@@ -1,21 +1,23 @@
 {
-  "version": "0.13.9",
+  "version": "0.13.11",
   "channel": "pre-release",
-  "released_at": "2026-11-12",
-  "file": "EXA-v0.13.9",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.9/EXA-v0.13.9",
-  "sha256": "5c11a81243d0534ef0ed2087fd2030b44079717e979ae10a997747d5459313c8",
-  "size": 152776736,
+  "released_at": "2026-11-13",
+  "file": "EXA-v0.13.11",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.11/EXA-v0.13.11",
+  "sha256": "e11e5995a897046e6dd0371211330af8520ad6b16e8a1dc659f9cc33abdd5d3f",
+  "size": 152785792,
   "notes": {
     "tr": [
-      "Büyük modeller (3 GB'a kadar STL) USB'den dilimlenebiliyor: dilimleyici yüklemeyi bellek yerine diske alıyor, büyük dosyaya gönderim için yeterli süre tanınıyor.",
-      "Tam ekran katman görünümünde BASE düğmesi: auto-base açıkken plakanın tabanı katmanın yerinde gösteriliyor; taban yoksa seçili ayarlarla çiziliyor.",
-      "Auto-base V2: köşe L işaretleri ve çubuklar tabanda korunuyor."
+      "Kapat penceresinde Yeniden Başlat: bilgisayar yeniden açılır, uygulama geri gelir. Baskı ya da kalibrasyon sürerken kullanılamaz.",
+      "Sol menü yenilendi: lacivert, sağdan yuvarlatılmış panel; seçili ekran sayfalar arasında kayan yumuşak bir kartla gösteriliyor.",
+      "USB menüde hep görünür: stick yokken pasif, takılınca yeşil noktayla etkin.",
+      "Ekran klavyesinin tuşları %30 büyüdü (giriş, Wi-Fi, ayarlar)."
     ],
     "en": [
-      "Large models (STL files up to 3 GB) can be sliced from USB: the slicer takes the upload on disk instead of in memory, and a large file gets enough time to be sent.",
-      "BASE button in the full-screen layer view: with the auto base switched on, the plate's base is shown in place of the layer; with none drawn yet, one is drawn with the selected settings.",
-      "Auto base V2 keeps the corner L markers and the bars."
+      "Restart in the power dialog: the computer starts again and the app comes back. Not available during a print or a calibration.",
+      "A new left menu: a navy panel rounded on its right; the selected screen is a soft tile that slides between screens.",
+      "USB is always on the menu: inactive without a stick, live with a green dot when one is in.",
+      "On-screen keyboard keys are 30% larger (sign-in, Wi-Fi, settings)."
     ]
   }
 }
