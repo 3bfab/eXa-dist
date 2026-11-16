@@ -1,23 +1,27 @@
 {
-  "version": "0.13.11",
+  "version": "0.14.0",
   "channel": "pre-release",
-  "released_at": "2026-11-13",
-  "file": "EXA-v0.13.11",
-  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.13.11/EXA-v0.13.11",
-  "sha256": "e11e5995a897046e6dd0371211330af8520ad6b16e8a1dc659f9cc33abdd5d3f",
-  "size": 152785792,
+  "released_at": "2026-11-16",
+  "file": "EXA-v0.14.0",
+  "url": "https://github.com/3bfab/eXa-dist/releases/download/v0.14.0/EXA-v0.14.0",
+  "sha256": "9635d0a32ace27f76cc8c52e7fb72141647451643d8d453e9dfdd8cc7fd89bc3",
+  "size": 152847232,
   "notes": {
     "tr": [
-      "Kapat penceresinde Yeniden Başlat: bilgisayar yeniden açılır, uygulama geri gelir. Baskı ya da kalibrasyon sürerken kullanılamaz.",
-      "Sol menü yenilendi: lacivert, sağdan yuvarlatılmış panel; seçili ekran sayfalar arasında kayan yumuşak bir kartla gösteriliyor.",
-      "USB menüde hep görünür: stick yokken pasif, takılınca yeşil noktayla etkin.",
-      "Ekran klavyesinin tuşları %30 büyüdü (giriş, Wi-Fi, ayarlar)."
+      "Deneysel: Geliştirici Seçenekleri > Maske Kalibrasyonu. Projektör maskesi makinenin kendi ışığından, LP471BLUE ışık probuyla bölge bölge ölçülerek oluşturuluyor; maskeyle yeniden ölçülüp kontrol ediliyor, gerekirse iyileştiriliyor.",
+      "Geliştirici Seçenekleri > Projektör maskesi: NovaHub'ın varsayılan maskesi ya da kalibre maske seçilebiliyor. Kalibre maske seçim değişince silinmiyor; NovaHub'da maske yoksa maske kapanıyor.",
+      "Dokunmatik X tarafından bırakıldığında da ekran koruyucu dokununca kapanıyor; açan dokunuş altındaki düğmeye basmıyor.",
+      "Oturum açıkken açılışta \"Başlamak için dokun\" ekranı çıkmıyor, doğrudan Ana sayfa geliyor.",
+      "Bakım > Maske indirilemezse uyarı, Sistem > Ayarları güncelle'yi gösteriyor.",
+      "Varsayılan maskeye çevrimdışıyken geçince, makinede saklanan NovaHub maskesi geri konuyor."
     ],
     "en": [
-      "Restart in the power dialog: the computer starts again and the app comes back. Not available during a print or a calibration.",
-      "A new left menu: a navy panel rounded on its right; the selected screen is a soft tile that slides between screens.",
-      "USB is always on the menu: inactive without a stick, live with a green dot when one is in.",
-      "On-screen keyboard keys are 30% larger (sign-in, Wi-Fi, settings)."
+      "Experimental: Developer options > Mask Calibration. The projector mask is made from the machine's own light, measured region by region with the LP471BLUE light probe, then checked by measuring through it and refined if needed.",
+      "Developer options > Projector mask: NovaHub's default mask or the calibrated one. Switching does not delete the calibrated mask; without a NovaHub mask, the mask is off.",
+      "With the touch panel dropped by X, a touch still closes the screensaver, and the waking touch presses nothing.",
+      "Signed in, the boot goes straight to Home without \"Tap to get started\".",
+      "Maintenance > Mask: a failed download points at System > Update settings.",
+      "Choosing the default mask offline puts back NovaHub's mask kept on the machine."
     ]
   }
 }
